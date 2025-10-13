@@ -262,7 +262,7 @@ function This_MOD.create_item(space)
                 i or #This_MOD.damages + 1
             ) .. "0"
 
-        --- Renombrar
+        --- Buscar el nombre
         local Item = GMOD.items[Name]
 
         --- Existe
@@ -446,7 +446,7 @@ function This_MOD.create_recipe(space)
                 i or #This_MOD.damages + 1
             ) .. "0"
 
-        --- Renombrar
+        --- Buscar el nombre
         local Recipe = data.raw.recipe[Name]
 
         --- Existe
@@ -636,7 +636,7 @@ function This_MOD.create_tech(space)
         --- Nombre a usar
         local Name = space.name .. (damage or "all") .. "-tech"
 
-        --- Renombrar
+        --- Buscar el nombre
         local Tech = data.raw.technology[Name]
 
         --- Existe
