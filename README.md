@@ -44,3 +44,5 @@ No configuration or scripting is required from the player.
 ## 🖼️ Screenshots
 
 ![Armor Screenshot 1](screenshot/\(1\).png)
+
+---
